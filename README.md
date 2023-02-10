@@ -7,8 +7,8 @@ The goal of this excercise is to write a python program for guessing the word a 
 > How many chars your chosen word has ==> ?
 2. We give to the computer, the number of tryouts for guessing our word.
 > How many times can I fail before being hanged ==> ?
-3. Your program should make the **best informed decision** for selecting the chars on the word the  player has chosen. Use the English dictionary present on each POSIX system, each word is lowercase.
-> cat /usr/share/dict/words | tr '[:upper:]' '[:lower:]' > words.txt
+3. Your program should make the **best informed decision** for selecting the chars on the word the  player has chosen. Use the English dictionary present on each POSIX system, each word is lowercase. Read it from (use lowercases)
+> /usr/share/dict/words
 
 otherwise download it from here on folder **assets**
 
